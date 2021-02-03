@@ -1,0 +1,23 @@
+/*SELECTOR DE ETIQUETA*/
+h1 {
+    color : red
+}
+
+section {
+    background-color: #ffa ;
+}
+
+/*SELECTOR DE ID*/
+#seccion2 { 
+    background-color: greenyellow;
+}
+
+
+/*
+predeterminados 
+hexadecimales : #
+rgb(red,green,blue)
+rgba(red,green,blue,alpha)
+hsl()
+hsla()
+*/

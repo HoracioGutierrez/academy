@@ -1,0 +1,55 @@
+https://material.io/design
+https://material.io/resources/color/
+
+
+etiquetas / tags : 
+
+    <etiqueta> </etiqueta>
+
+    <etiqueta/>
+
+atributos : agregan configuracion adicional a uina etiqueta
+
+    <etiqueta atributo=""> </etiqueta>
+
+    <etiqueta atributo=""/>
+
+
+
+html : Es la etiqueta/nodo raiz y engloba todo el contenido
+
+head : ¨"contenido invisible"
+
+body : contenido visible
+
+header : logotipos - barras de navegacion - formulario - titulares
+
+main : contenido central
+
+footer : copyright - contacto - formularios - barras de navegacion - Terminos y condiciones
+
+section : es un bloque del contenido central
+
+article : autocontenido
+
+aside : contenido tangencial
+
+div : divisor
+
+ul - ol : lista desordenada y ordenada
+
+li : item de lista
+
+a - div - section - article - aside - img - form - span
+
+
+
+
+CSS
+
+selector / cuerpo / reglas
+
+
+selector > Es la manquera de referirme a una etiqueta
+cuerpo > va a continuacion del selector, esta entre llaves y guarda todas las reglas
+reglas > Cada una de las instrucciones de cambio

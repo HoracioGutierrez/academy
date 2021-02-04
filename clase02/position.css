@@ -1,0 +1,21 @@
+html , body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor {
+    border: 2px dashed red;
+    height: 600px;
+    width: 600px;
+}
+
+#hijo1 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}

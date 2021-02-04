@@ -1,0 +1,169 @@
+/* html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+ */
+/*SELECTOR UNIVERSAL*/
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+/*SELECTOR COMPUESTO*/ 
+html , body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    margin-left: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*START : HEADER*/
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    padding : 8px 16px;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+/*END : HEADER*/
+
+
+
+/*START : MAIN*/
+main {
+    flex-grow: 1;
+    padding: 16px 0;
+}
+
+h2 {
+    padding: 0 16px;
+}
+/*END : MAIN*/
+
+
+
+/*START : PORTFOLIO*/
+
+#portfolio {
+    padding: 30px 0;
+    background-color: salmon;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#contenedor-general {
+    display: flex;
+    justify-content: center;
+}
+
+#izquierdo , #derecho {
+    margin: 0 7px;
+}
+
+.abajo {
+    display: flex;
+}
+
+
+.arriba {
+    width: 415px;
+    /* background-color: crimson; */
+    margin-bottom: 30px;
+    background-image: url("imagen1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.arriba , .izquierdo , .derecho {
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.izquierdo , .derecho {
+    width: 200px;
+    /* background-color: darkgoldenrod; */
+    background-image: url("imagen2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.izquierdo {
+    margin-right: 7px;
+}
+
+.derecho {
+    margin-left: 7px;
+}
+
+/*END : PORTFOLIO*/
+
+
+
+
+
+/*START : FOOTER*/
+footer {
+    text-align: center;
+    font-size: 12px ;
+    padding: 8px 0;
+    background-color: rgb(49, 88, 161);
+}
+/*END : FOOTER*/
+
+
+
+/*
+box-shadow : <offsetX> <offsetY> <blur> <spread> <color> <type>
+*/
+
+
+/*
+SELECTORES DE JERARQUIA
+
+padre hijo {} : para todo elemento hijo de un padre en cualquier nivel
+
+padre > hijo {} : para todo elemento hijo directo de un padre
+
+background : 
+background-image : url("") - linear-gradient() radial-gradient()
+background-size : x y / contain / cover
+background-repeat : norepeat
+background-position : x y / bottom - right - left - top - center
+
+SPRITES
+
+*/
+
+
+/*
+
+-moz-
+-o-
+-webkit-
+-ms-
+
+
+LESS - SASS - 
+
+*/

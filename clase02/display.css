@@ -1,0 +1,51 @@
+#contenedor {
+    border : 2px dashed red;
+    height: 100px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* align-content: center; */
+}
+
+/*SELECTOR DE CLASE*/
+.hijo {
+    border: 1px solid black;
+    /* width: 250px; */
+}
+
+
+#hijo4 {
+    /* order: -1; */
+    /* align-self: flex-start; */
+}
+
+/*
+FLEXBOX 
+
+PADRE
+
+display: flex;
+flex-direction : row - column - row-reverse - column-reverse
+justify-content : flex-start / flex-end / center / space-between / space-around
+align-items : stretch - flex-start / flex-end / center
+flex-wrap : nowrap - wrap - wrap-reverse
+align-content : flex-start / flex-end / center / space-between / space-around
+flex-flow : <direction> <wrap>
+
+
+
+
+HIJO
+
+order : numero entero positivo o negativo
+align-self : stretch - flex-start / flex-end / center
+flex-grow
+flex-shrink
+flex-basis
+flex : <grow> <shrink> <basis>
+
+
+*/
